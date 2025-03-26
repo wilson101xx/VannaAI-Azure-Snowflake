@@ -108,6 +108,17 @@ uvicorn src.api.main:app --reload
 
 
 
+## Streamlit APP
+
+![alt text](readme_images/image.png)
+
+I have also created a streamlit app that allows you to use the application utilizing the endpoints
+
+- To run
+```
+streamlit run .\streamlit-ui\app.py
+```
+
 ## 📈 Azure AI Vector Search
 
 The custom vector store (AzureAISearch_VectorStore) provides embedding and semantic search capabilities via:
